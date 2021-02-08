@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_menu"
+        android:layout_width="226dp"
+        android:layout_height="121dp"
+        android:fontFamily="@font/alger_font"
+        android:gravity="center"
+        android:text="@string/menu"
+        android:textColor="#553311"
+        android:textSize="86sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:background="#553311"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_menu" />
+
+    <include
+
+        android:id="@+id/header_category"
+        style="@style/category_header"
+        layout="@layout/category_header"
+        android:layout_width="240dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/alger_font"
+        app:layout_constraintTop_toBottomOf="@+id/line1" />
+
+    <include
+        android:id="@+id/header_item"
+        layout="@layout/item_header"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="4.6dp"
+        android:fontFamily="@font/alger_font"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/header_category"
+        app:layout_constraintTop_toBottomOf="@+id/line1" />
+
+    <ListView
+        android:id="@+id/menu_category"
+        android:layout_width="240dp"
+        android:layout_height="1024dp"
+        android:divider="#553311"
+        android:dividerHeight="1dp"
+
+        android:listSelector="#46C69C6D"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_category"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/menu_item"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#46C69C6D"
+        android:divider="#553311"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/menu_category"
+        app:layout_constraintTop_toBottomOf="@+id/header_item"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

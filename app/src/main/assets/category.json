@@ -1,0 +1,86 @@
+[
+  {
+    "categoryName": "Highland",
+    "categotyCode": "code0"
+  },
+  {
+    "categoryName": "Speyside",
+    "categotyCode": "code1"
+  },
+  {
+    "categoryName": "Islay",
+    "categotyCode": "code2"
+  },
+  {
+    "categoryName": "Islands",
+    "categotyCode": "code3"
+  },
+  {
+    "categoryName": "Campbeltown",
+    "categotyCode": "code4"
+  },
+  {
+    "categoryName": "Lowland",
+    "categotyCode": "code5"
+  },
+  {
+    "categoryName": "Japanese",
+    "categotyCode": "code6"
+  },
+  {
+    "categoryName": "Jaiwan",
+    "categotyCode": "code7"
+  },
+  {
+    "categoryName": "India",
+    "categotyCode": "code8"
+  },
+  {
+    "categoryName": "Blended Scotch",
+    "categotyCode": "code9"
+  },
+  {
+    "categoryName": "Irish",
+    "categotyCode": "code10"
+  },
+  {
+    "categoryName": "Canadian",
+    "categotyCode": "code11"
+  },
+  {
+    "categoryName": "American",
+    "categotyCode": "code12"
+  },
+  {
+    "categoryName": "Run",
+    "categotyCode": "code13"
+  },
+  {
+    "categoryName": "Cognac",
+    "categotyCode": "code14"
+  },
+  {
+    "categoryName": "Gin",
+    "categotyCode": "code15"
+  },
+  {
+    "categoryName": "Vodka",
+    "categotyCode": "code16"
+  },
+  {
+    "categoryName": "Jequila",
+    "categotyCode": "code17"
+  },
+  {
+    "categoryName": "Champagne/Sparkring Wine",
+    "categotyCode": "code18"
+  },
+  {
+    "categoryName": "Beer",
+    "categotyCode": "code19"
+  },
+  {
+    "categoryName": "Bar Lupin Cocktails",
+    "categotyCode": "code20"
+  }
+]

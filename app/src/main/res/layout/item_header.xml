@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/item"
+    android:background="#553311">
+
+    <TextView
+        android:id="@+id/item_name_header"
+        style="@style/list_textview_style"
+        android:layout_width="159dp"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/alger_font"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/item_expression_header"
+        style="@style/list_textview_style"
+        android:layout_toEndOf="@+id/item_name_header"
+        android:textColor="#FFF"
+        android:fontFamily="@font/alger_font"
+        android:layout_width="132dp"/>
+
+    <TextView
+        android:id="@+id/item_glassAmount_header"
+        style="@style/list_textview_style"
+        android:layout_width="120dp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/item_expression_header"
+        android:fontFamily="@font/alger_font"
+        android:gravity="center"
+        android:text="@string/glass"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/item_bottleAmount_header"
+        style="@style/list_textview_style"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-1dp"
+        android:fontFamily="@font/alger_font"
+        android:gravity="center"
+        android:text="@string/bottle"
+        android:textColor="#FFF" />
+</RelativeLayout>

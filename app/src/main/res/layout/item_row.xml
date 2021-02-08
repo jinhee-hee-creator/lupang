@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/item">
+
+    <TextView
+        android:id="@+id/item_name"
+        style="@style/list_textview_style"
+        android:layout_width="159dp"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/bkant_font"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/item_expression"
+        style="@style/list_textview_style"
+        android:layout_width="132dp"
+        android:layout_toRightOf="@+id/item_name"
+        android:fontFamily="@font/bkant_font" />
+
+    <TextView
+        android:id="@+id/item_glassAmount"
+        style="@style/list_textview_style"
+        android:layout_width="120dp"
+        android:layout_toRightOf="@+id/item_expression"
+        android:fontFamily="@font/bkant_font"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/item_bottleAmount"
+        style="@style/list_textview_style"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/bkant_font"
+        android:gravity="right|center_vertical" />
+</RelativeLayout>

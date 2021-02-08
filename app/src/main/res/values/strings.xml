@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lupin</string>
+    <string name="menu">MENU</string>
+    <string name="glass">Glass</string>
+    <string name="bottle">Bottle</string>
+    <string name="sub_search">검색</string>
+    <string name="textview" />
+    <string name="textview2" />
+    <string name="search">검색</string>
+    <string name="beverage">Beverage</string>
+    <string name="beverage1">Beverage</string>
+</resources>

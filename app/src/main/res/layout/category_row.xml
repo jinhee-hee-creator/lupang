@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/category">
+
+    <TextView
+        android:id="@+id/menu_category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/alger_font"
+        android:gravity="center"
+        android:textColor="#553311"
+        android:textSize="18sp" />
+
+</RelativeLayout>
