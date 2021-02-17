@@ -58,7 +58,6 @@
         android:layout_height="1024dp"
         android:divider="#553311"
         android:dividerHeight="1dp"
-
         android:listSelector="#46C69C6D"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
