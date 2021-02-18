@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
-
+//바꾼부분을 알고싶느냐
 public class IntroActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
